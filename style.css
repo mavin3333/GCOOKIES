@@ -1,0 +1,50 @@
+/* Custom Brand Colors for SweetSpot Cookie Co. */
+:root {
+    --primary-color: #795548; /* Brown/Cookie Crust */
+    --secondary-color: #fce4ec; /* Pink/Frosting Light */
+    --accent-color: #ffcc80; /* Caramel/Gold */
+}
+
+/* Custom Navigation */
+.custom-nav {
+    background-color: var(--primary-color);
+}
+.custom-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+.custom-nav .nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: url('https://via.placeholder.com/1920x600/795548/ffffff?text=Cookie+Background+Image') no-repeat center center;
+    background-size: cover;
+    height: 60vh; /* Viewport height for visual impact */
+    min-height: 400px;
+}
+
+/* Custom Primary Button */
+.custom-btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.custom-btn-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+/* Specific styling for mobile responsiveness (using a media query is good practice) */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+        min-height: 300px;
+    }
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
