@@ -38,7 +38,7 @@
     color: white;
 }
 
-/* Specific styling for mobile responsiveness (using a media query is good practice) */
+/* Specific styling for mobile responsiveness */
 @media (max-width: 768px) {
     .hero-section {
         height: 50vh;
